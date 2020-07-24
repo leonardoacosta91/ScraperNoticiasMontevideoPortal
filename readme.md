@@ -1,12 +1,12 @@
 # Scraper de noticias 
 
-Proyecto realizado en curso de MOOC Platzi
+Proyecto realizado en el curso Ingenieria de datos con Python en la MOOC Platzi
 
 El proyecto consta de un pipeline ETL el cual se encarga de realizar un scraping, realizar transformaciones para limpiar los datos y por ultimo se almacenan en una base de datos SQLite
 
 El mismo se divide en:
 #### Extracción
-Se realizan extracciones automatizadas de la pagina [Montevideo Portal](https://www.montevideo.com.uy/index.html) pero también admite la posibilidad de agregar nuevas paginas para realizar scraping a través de la modificación del archivo [`config.yaml`](https://github.com/leonardoacosta91/InstagramChatbot/blob/master/extract/config.yaml)
+Se realizan extracciones automatizadas de la pagina [Montevideo Portal](https://www.montevideo.com.uy/index.html) pero también admite la posibilidad de agregar nuevas paginas para realizar scraping a través de la modificación del archivo [`config.yaml`](https://github.com/leonardoacosta91/ScraperNoticias/blob/master/extract/config.yaml)
 
 #### Transformación
 El proceso consta de las diferentes transformaciones:
@@ -28,7 +28,7 @@ title - string\
 newspaper_uid - string\
 n_tokens_body - string\
 n_tokens_title - string\
-url - string
+url - string - unique
 
 ### Pre-requisitos 📋
 Es necesario tener python 3.6 en adelante.

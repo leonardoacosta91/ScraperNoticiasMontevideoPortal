@@ -1,0 +1,8 @@
+news_sites:
+  MontevideoPortal:
+    url: https://www.montevideo.com.uy/index.html
+    queries:
+      homepage_article_links: '.title a'
+      article_body: '.contenido'
+      article_title: '.h2 title'
+
